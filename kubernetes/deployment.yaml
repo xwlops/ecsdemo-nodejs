@@ -1,10 +1,10 @@
 apiVersion: apps/v1
-kind: 部署
+kind: Deployment
 metadata:
   name: ecsdemo-nodejs
   labels:
     app: ecsdemo-nodejs
-  namespace: 默认
+  namespace: default
 spec:
   replicas: 5
   selector:
